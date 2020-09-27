@@ -5,6 +5,13 @@ import OpenGL.GL
 import OpenGL.GLUT
 import OpenGL.GLU
 
+class Robosim(object):
+    """
+    """
+    def __init__(self):
+        pass
+
+    
 
 def main():
     logging.basicConfig(format='%(asctime)s %(name)s'
@@ -14,4 +21,5 @@ def main():
     logging.info("Starting main execution.")
     logging.info("Completing main execution")
 
+    
 main()
